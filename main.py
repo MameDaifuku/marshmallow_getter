@@ -118,5 +118,5 @@ if not os.path.exists(dir_path_output) : os.mkdir(dir_path_output)
 dir_path_user = f"{dir_path_output}/{user_id}"
 if not os.path.exists(dir_path_user) : os.mkdir(dir_path_user)
 
-# run()
-run_restart()
+run() # 最新から順繰りに取得する
+# run_restart() # 取得済みの中でdata-updated-atの日付が一番古いヤツを起点にして取得する
