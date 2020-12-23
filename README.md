@@ -4,7 +4,7 @@ main.py
 特定のユーザーのマシュマロ回答をテキスト形式（というかJSON）でローカルに  
 ダウンロードしてくる  
 
-analyze.py
+analyze.py  
 main.pyで取ってきたヤツの中身を確認する処理
 
 user_getter.py  
